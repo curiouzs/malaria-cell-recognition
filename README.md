@@ -1,4 +1,4 @@
-Deep Neural Network for Malaria Infected Cell Recognition 
+# Deep Neural Network for Malaria Infected Cell Recognition 
 
 ## AIM
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
