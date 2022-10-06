@@ -155,9 +155,9 @@ else:
 ![Screenshot (438)](https://user-images.githubusercontent.com/75243072/193250332-c7bbec86-6dd1-4514-9216-921ee6ac437a.png)
 ![Screenshot (436)](https://user-images.githubusercontent.com/75243072/193250385-e5bace63-44b8-4c01-8e1a-2a334db8702e.png)
 
-
 ### New Sample Data Prediction
-![Screenshot (437)](https://user-images.githubusercontent.com/75243072/193250408-22bb3ee4-c241-4f33-8599-99a755b52032.png)
+![fgif(1)](https://user-images.githubusercontent.com/75234646/194310436-96acf050-47e5-4298-b729-555bd1b03a3a.png)
+
 
 ## RESULT
  Thus, a deep neural network for Malaria infected cell recognition is developed and  the performance is analyzed.
