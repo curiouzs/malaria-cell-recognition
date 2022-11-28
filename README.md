@@ -1,17 +1,14 @@
-# Deep Neural Network for Malaria Infected Cell Recognition 
-
+## EXP.NO : 04
+## DATE   : 
+# <h1 align ="center">Deep Neural Network for Malaria Infected Cell Recognition</h1> 
 ## AIM
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
-
 ## Problem Statement and Dataset
 Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
-
 ## Neural Network Model
-![Screenshot (440)](https://user-images.githubusercontent.com/75243072/193460612-6d341c95-fa1b-4c58-98d5-f7e007a0b079.png)
-
+<img src ="https://user-images.githubusercontent.com/75243072/193460612-6d341c95-fa1b-4c58-98d5-f7e007a0b079.png" width ="50%" height="40%">
 
 ## DESIGN STEPS
-
 ### STEP-1:
 Import tensorflow and preprocessing libraries
 ### STEP 2:
@@ -32,11 +29,9 @@ Evaluate the model with the testing data using probability prediction(uninfected
 Fit the model and predict the sample input.
 
 ## PROGRAM
-
 ```python
 # Developed By: LOKESH KRISHNAA M
 # Register Number:212220230030
-
 import os
 import pandas as pd
 import numpy as np
@@ -144,23 +139,19 @@ if(x_single_prediction==1):
     print("Cell is UNINFECTED")
 else:
     print("Cell is PARASITIZED")
-
-
 ```
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![Screenshot (435)](https://user-images.githubusercontent.com/75243072/193250270-08a6b329-3663-421f-9584-dc785d471b3b.png)
+<img src ="https://user-images.githubusercontent.com/75243072/193250270-08a6b329-3663-421f-9584-dc785d471b3b.png" width ="50%" height="40%"> 
 
 ### Classification Report
-![f2(1)](https://user-images.githubusercontent.com/75234646/194310946-71b6a0f1-1686-433a-979f-d23a05f5257b.png)
+<img src ="https://user-images.githubusercontent.com/75234646/194310946-71b6a0f1-1686-433a-979f-d23a05f5257b.png" width ="50%" height="40%"> 
 
 ### Confusion Matrix
-![f1(1)](https://user-images.githubusercontent.com/75234646/194310954-8b481bd8-4529-431f-9f72-f581ce693e50.png)
+<img src ="https://user-images.githubusercontent.com/75234646/194310954-8b481bd8-4529-431f-9f72-f581ce693e50.png" width ="50%" height="40%"> 
 
 ### New Sample Data Prediction
-![fgif(1)](https://user-images.githubusercontent.com/75234646/194310436-96acf050-47e5-4298-b729-555bd1b03a3a.png)
-
+<img src ="https://user-images.githubusercontent.com/75234646/194310436-96acf050-47e5-4298-b729-555bd1b03a3a.png" width ="50%" height="40%"> 
 
 ## RESULT
  Thus, a deep neural network for Malaria infected cell recognition is developed and  the performance is analyzed.
-
